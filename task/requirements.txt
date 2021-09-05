@@ -6,7 +6,6 @@ beautifulsoup4
 django-ckeditor==5.9.0
 django-rest-passwordreset==1.1.0
 django-rest-knox==4.1.0
-djoser==2.1.0
 django-cors-headers
 django-import-export
 whitenoise

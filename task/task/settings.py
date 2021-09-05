@@ -159,19 +159,6 @@ REST_FRAMEWORK = {
 }
 
 
-DJOSER = {
-    'LOGIN_FIELD': 'username',
-    'USER_CREATE_PASSWORD_RETYPE': True,
-    'USERNAME_CHANGED_EMAIL_CONFIRMATION': False,
-    'PASSWORD_CHANGED_EMAIL_CONFIRMATION': False,
-    'SEND_CONFIRMATION_EMAIL': False,
-    'SET_USERNAME_RETYPE': False,
-    'SET_PASSWORD_RETYPE': False,
-    'PASSWORD_RESET_CONFIRM_URL': 'reset/password/reset/confirm/{uid}/{token}',
-    'USERNAME_RESET_CONFIRM_URL': 'email/reset/confirm/{uid}/{token}',
-    'ACTIVATION_URL': 'activate/{uid}/{token}',
-    'SEND_ACTIVATION_EMAIL': False,
-}
 
 SIMPLE_JWT = {
     'AUTH_HEADER_TYPES': ('JWT',),

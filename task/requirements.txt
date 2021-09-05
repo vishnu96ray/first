@@ -1,0 +1,13 @@
+Django==3.2.6
+Pillow
+requests
+djangorestframework
+beautifulsoup4
+django-ckeditor==5.9.0
+django-rest-passwordreset==1.1.0
+django-rest-knox==4.1.0
+djoser
+django-cors-headers
+django-import-export
+whitenoise
+gunicorn
